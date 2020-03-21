@@ -5,7 +5,7 @@ Please submit a pull request if you see incorrect information or want to add som
 
 ## Sections:
 1. [Papers and Articles about Fraud Analysis](#papers-and-articles-about-fraud-analysis)
-1. [Learning Tools](#base_understanding-and-learning-tools)
+1. [Learning Tools](#base-understanding-and-learning-tools)
 1. [Algorithms](#algorithms)
 ----
 
