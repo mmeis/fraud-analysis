@@ -39,16 +39,16 @@ Please submit a pull request if you see incorrect information or want to add som
 - Python examples of different implementations with scikit-learn: 
   - https://scikit-learn.org/stable/modules/naive_bayes.html
 
-####Iterative Dichotomiser 3 (ID 3): 
+#### Iterative Dichotomiser 3 (ID 3): 
 - based on decision tree learning using rules.
 
-####See5/C5.0: 
+#### See5/C5.0: 
 - finds patterns and categories and uses that to make predictions
 - https://www.rulequest.com/see5-info.html
 
-####Isolation Forest:
+#### Isolation Forest:
 
-####Logistic Regression: 
+#### Logistic Regression: 
 - https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc
 - https://www.statisticssolutions.com/what-is-logistic-regression/
 
