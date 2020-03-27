@@ -7,9 +7,10 @@ Please submit a pull request if you see incorrect information or want to add som
 1. [Trends and IOCs](#trends-and-iocs)
 1. [Papers and Articles about Fraud Analysis](#papers-and-articles-about-fraud-analysis)
 1. [Learning Tools](#base-understanding-and-learning-tools)
-1. [Algorithms](#algorithms)
+1. [Algorithms](#algorithms)  
+
 ----
-## Trends and IOCs
+## Trends and IOCs [^](#fraud-detection-and-prevention-repo)
 This section details trends that have been observed on fraudulent electronic transactions. 
 Also included are Indicators of Compromise (IOC) for an account or an electronic payment. 
 A trend or IOC can be something tested multiple times like a [Benford's Law](#benfords-law), 
@@ -58,7 +59,7 @@ These super round values occurred more often in fraud cases as well.
 Example 1: $1,**0**3**000**4.**00**  
 Example 2: $1,23**0,000.00**
 
-## Papers and Articles about Fraud Analysis
+## Papers and Articles about Fraud Analysis [^](#fraud-detection-and-prevention-repo)
 ### My Favorite Papers:
 - TitAnt: Online Real-time Transaction Fraud Detection in Ant Financial
   - Has some great details and references on specific algorithms and their performance compared to each other.
@@ -78,7 +79,7 @@ Example 2: $1,23**0,000.00**
 - High Level Explanation of some machine learning techniques: 
   - https://pkghosh.wordpress.com/2012/01/02/fraudsters-outliers-and-big-data-2/
 
-## Algorithms
+## Algorithms [^](#fraud-detection-and-prevention-repo)
 
 ### Machine Learning (ML) and Artificial Intelligence (AI)
 
