@@ -16,15 +16,18 @@ A trend or IOC can be something tested multiple times like a [Benford's Law](#be
 a country that is risky to send wires to, or a hunch based on a one or more real data sets.
 
 ### Benfords Law
-Have you ever seen a fraudster send a wire just under some arbitrary threshold? 
-For example: $9,999 can feel like a really common bad amount. But why? 
+Have you ever seen a fraudster or unwitting customer send a transaction just under some arbitrary threshold?  
+
+*For example: $9,999 can feel like a really common bad amount.*  
+
+But why? 
 It's partially due to $10,000 being the reporting threshold for most banks, 
 but also due to a phenomenon known as Benford's Law. 
 In a real data set the number 9 is very unlikely to be the first digit. 
 In fact, there is less than half a percent chance that the first digit is a 9.
 Benford's Law holds up remarkably well across non faked data sets.  It has been used to catch accounting fraud and
 can be extended to real time transaction blocking.  The original algorithm looks at the first digit of a number
-and can reliably predict the percent chance that digit is a 1-9.  
+and can reliably predict the percent chance that digit is a 1-9. 
 There is a 30% chance of a one being in the first digit, while odds go down for 2, 3, 4 and so on. 
 If you are able to check the first digit of all amounts in your data set, and then check all known fraud you may see a 
 pattern for your known fraud vs your known good data. 
@@ -46,7 +49,7 @@ I would see 75 fraud transactions with zero cents and 25 normal transactions wit
 Example: $1,234.**00**
 
 ##### Trend 2: Digit Frequencies
-I found that fraud transactions tend to be more "round" than non fraud transactions.  
+I found that fraud transactions tend to be more "round" than non fraud transactions. 
 About 17% of my normal data set was round, while 35% of my fraud data was round.  Round came in many different forms. 
 I counted digit frequency and found that zeros occurred (in any position) more often in fraud than non fraud. 
 Also, if you modulus by 1,000 you can see "super round" values. 
