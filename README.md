@@ -4,10 +4,56 @@ I've collected links to papers, great learning resources, algorithms and more.
 Please submit a pull request if you see incorrect information or want to add some new resources.
 
 ## Sections:
+1. [Trends and IOCs](#trends-and-iocs)
 1. [Papers and Articles about Fraud Analysis](#papers-and-articles-about-fraud-analysis)
 1. [Learning Tools](#base-understanding-and-learning-tools)
 1. [Algorithms](#algorithms)
 ----
+## Trends and IOCs
+This section details trends that have been observed on fraudulent electronic transactions. 
+Also included are Indicators of Compromise (IOC) for an account or an electronic payment. 
+A trend or IOC can be something tested multiple times like a [Benford's Law](#benfords-law), 
+a country that is risky to send wires to, or a hunch based on a one or more real data sets.
+
+### Benfords Law
+Have you ever seen a fraudster send a wire just under some arbitrary threshold? 
+For example: $9,999 can feel like a really common bad amount. But why? 
+It's partially due to $10,000 being the reporting threshold for most banks, 
+but also due to a phenomenon known as Benford's Law. 
+In a real data set the number 9 is very unlikely to be the first digit. 
+In fact, there is less than half a percent chance that the first digit is a 9.
+Benford's Law holds up remarkably well across non faked data sets.  It has been used to catch accounting fraud and
+can be extended to real time transaction blocking.  The original algorithm looks at the first digit of a number
+and can reliably predict the percent chance that digit is a 1-9.  
+There is a 30% chance of a one being in the first digit, while odds go down for 2, 3, 4 and so on. 
+If you are able to check the first digit of all amounts in your data set, and then check all known fraud you may see a 
+pattern for your known fraud vs your known good data. 
+There should be a slight variation between fraud and good data due to fraud data being more likely to be made up 
+randomly than for a normal business payment. 
+That pattern can then be applied to real time analysis of new transactions.  
+
+Detailed Description: https://mathworld.wolfram.com/BenfordsLaw.html
+
+#### Extensions of Benfords Law
+Benford's law extends to second and third digits, but only marginally.  It is best used for first digit analysis. 
+That said, I was able to look at digit frequencies to find some interesting trends!
+
+##### Trend 1: Zero Cents
+I found that it is 3 times more common to see a dollar amount with zero cents in a fraud data set, than a good data set.
+Meaning that if I took 100 fraudulent transactions and 100 normal transactions, 
+I would see 75 fraud transactions with zero cents and 25 normal transactions with zero cents.
+
+Example: $1,234.**00**
+
+##### Trend 2: Digit Frequencies
+I found that fraud transactions tend to be more "round" than non fraud transactions.  
+About 17% of my normal data set was round, while 35% of my fraud data was round.  Round came in many different forms. 
+I counted digit frequency and found that zeros occurred (in any position) more often in fraud than non fraud. 
+Also, if you modulus by 1,000 you can see "super round" values. 
+These super round values occurred more often in fraud cases as well.
+
+Example 1: $1,**0**3**000**4.**00**  
+Example 2: $1,23**0,000.00**
 
 ## Papers and Articles about Fraud Analysis
 ### My Favorite Papers:
