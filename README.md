@@ -27,14 +27,14 @@ but also due to a phenomenon known as Benford's Law.
 In a real data set the number 9 is very unlikely to be the first digit. 
 In fact, there is less than half a percent chance that the first digit is a 9.
 Benford's Law holds up remarkably well across non faked data sets.  It has been used to catch accounting fraud and
-can be extended to real time transaction blocking.  The original algorithm looks at the first digit of a number
+can be extended to real time transaction monitoring.  The original algorithm looks at the first digit of a number
 and can reliably predict the percent chance that digit is a 1-9. 
 There is a 30% chance of a one being in the first digit, while odds go down for 2, 3, 4 and so on. 
 If you are able to check the first digit of all amounts in your data set, and then check all known fraud you may see a 
 pattern for your known fraud vs your known good data. 
 There should be a slight variation between fraud and good data due to fraud data being more likely to be made up 
 randomly than for a normal business payment. 
-That pattern can then be applied to real time analysis of new transactions.  
+The difference between your normal and fraud transactions can then be applied to the reall time analysis of those transactions.  
 
 Detailed Description: https://mathworld.wolfram.com/BenfordsLaw.html
 
@@ -58,6 +58,52 @@ These super round values occurred more often in fraud cases as well.
 
 Example 1: $1,**0**3**000**4.**00**  
 Example 2: $1,23**0,000.00**
+
+### Covid-19 (Coronavirus) Scams (2020 Trend)
+There are many covid-19 scams out there, and the landscape is changing daily. 
+If a fraud system does not react to current events it will not catch as much fraud as it should. 
+One thing that can be quick to implement are searches on keywords. 
+Below is a list of keywords that may be found on anomalous transactions:
+- virus
+- corona
+- corona virus
+- coronavirus
+- covid
+- gloves
+- nitril (type of glove used)
+- clean (many companies are cleaning their offices, causing demand to go up and scammers to offer fake services, fair amount of FP)
+- face
+- mask
+- medicine
+- N95
+- ppe (personal protective equipment)
+- protect
+- infect
+- disinfect
+- gown
+- formula (baby formula is in demand)
+- treatment
+- tylenol
+- S413 (type of protective equipment)
+- medical
+- vaccine
+- crisis
+- emergency
+- cure
+- donation (searched for "donat" so I could catch donate too)
+- kit (testing kits are in high demand, kit produces lots of FP due to kitchen and similar words)
+- ventilator (search on "ventilat" to get ventilation)
+- respirat (to catch respirators and respiration)
+- work%home (trying to find work from home)
+- purif (to catch purification, purify)
+- sanitation
+- WHO (for world health organization)
+- health (skimmed this, lots of hits)
+- safe investment
+- test (lots of FP)
+- Italy
+- ransom
+- duct (air duct cleaning scams are big)
 
 ## Papers and Articles about Fraud Analysis [^](#fraud-detection-and-prevention-repo)
 ### My Favorite Papers:
