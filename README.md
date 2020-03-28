@@ -4,6 +4,11 @@ I've collected links to papers, great learning resources, algorithms and more.
 Please submit a pull request if you see incorrect information or want to add some new resources.
 
 ## Sections:
+
+*if you are looking for Covid-19 Trend information [click here](#covid-19-coronavirus-scams-2020-trend)!
+
+----
+
 1. [Trends and IOCs](#trends-and-iocs)
 1. [Papers and Articles about Fraud Analysis](#papers-and-articles-about-fraud-analysis)
 1. [Learning Tools](#base-understanding-and-learning-tools)
