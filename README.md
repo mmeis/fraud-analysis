@@ -13,6 +13,7 @@ Please submit a pull request if you see incorrect information or want to add som
 1. [Papers and Articles about Fraud Analysis](#papers-and-articles-about-fraud-analysis)
 1. [Learning Tools](#base-understanding-and-learning-tools)
 1. [Algorithms](#algorithms)  
+1. [Data Sources](#data-sources)
 
 ----
 ## Trends and IOCs [^](#fraud-detection-and-prevention-repo)
@@ -156,3 +157,10 @@ Below is a list of keywords that may be found on anomalous transactions:
 #### Factor Analysis
 
 #### Multiple linear regression
+
+## Data Sources
+Below is a list of free data sources that can be used to practice some of the techniques described in this repo.
+
+- Credit Card Fraud Detection: https://www.kaggle.com/mlg-ulb/creditcardfraud
+- Synthetic Financial Transactions: https://www.kaggle.com/ntnu-testimon/paysim1
+- German Credit Card data set: https://weka.8497.n7.nabble.com/file/n23121/credit_fruad.arff
