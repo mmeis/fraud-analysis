@@ -124,12 +124,36 @@ Below is a list of keywords that may be found on anomalous transactions:
   - https://github.com/YingtongDou/graph-fraud-detection-papers
 
 ## Base Understanding and Learning Tools
+
+### Free
 - Learning financial data science: 
   - https://github.com/financial-data-science/CFDS-4
 - Some ML models: 
   - https://github.com/georgymh/ml-fraud-detection
 - High Level Explanation of some machine learning techniques: 
   - https://pkghosh.wordpress.com/2012/01/02/fraudsters-outliers-and-big-data-2/
+- Data Science topics and tools:
+  - https://www.kaggle.com/
+- General Learning Resource with Online books and videos
+  - https://www.packtpub.com/free-learning
+
+### Paid Resources
+- O'Reilly Online Learning ($500 a year)
+  - https://www.oreilly.com/online-learning/individuals.html
+
+### Books
+Many of these books or ones like them may be available to you through your school/work library learning centers. 
+If you don't have access to them there, you may have access to some of the web portals these books reside for free on 
+(such as Wiley's [site](https://onlinelibrary.wiley.com/)). 
+As a final resort, all of the titles link to amazon for purchase.
+
+
+- [Forensic Analytics: Methods and Techniques for Forensic Accounting Investigations (Wiley Corporate F&A) 2nd Edition](https://smile.amazon.com/dp/1119585767/?coliid=I2LDWXN5OKT2YB&colid=1C4JD9ARYRA9V&psc=1&ref_=lv_ov_lig_dp_it)
+  - Great book about some general accounting and financial fraud. 
+  Discusses a deeper dive into Benford's law, Correlation, Time-Series Analysis, Risk Scoring and many other topics.
+
+- []
+
 
 ## Algorithms [^](#fraud-detection-and-prevention-repo)
 
