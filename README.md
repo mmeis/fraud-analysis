@@ -109,7 +109,8 @@ Below is a list of keywords that may be found on anomalous transactions:
 - test (lots of FP)
 - Italy
 - ransom
-- duct (air duct cleaning scams are big)
+- stimulus
+- duct (air duct cleaning scams are a new trend)
 
 ## Papers and Articles about Fraud Analysis [^](#fraud-detection-and-prevention-repo)
 ### My Favorite Papers:
@@ -136,6 +137,10 @@ Below is a list of keywords that may be found on anomalous transactions:
   - https://www.kaggle.com/
 - General Learning Resource with Online books and videos
   - https://www.packtpub.com/free-learning
+- Credit Card Fraud Detection with Python Video:
+  - https://youtu.be/PmssNOAeqdk
+- Wikipedia: Data analysis techniques for fraud detection
+  - https://en.wikipedia.org/wiki/Data_analysis_techniques_for_fraud_detection
 
 ### Paid Resources
 - O'Reilly Online Learning ($500 a year)
@@ -152,8 +157,8 @@ As a final resort, all of the titles link to amazon for purchase.
   - Great book about some general accounting and financial fraud. 
   Discusses a deeper dive into Benford's law, Correlation, Time-Series Analysis, Risk Scoring and many other topics.
 
-- []
-
+- [The Hundred-Page Machine Learning Book](https://smile.amazon.com/dp/199957950X/?coliid=INUFIW0CDO33T&colid=1C4JD9ARYRA9V&psc=1&ref_=lv_ov_lig_dp_it)
+  - Shortest book to give a high level overview of many techniques.  This is a great introduction to machine learning
 
 ## Algorithms [^](#fraud-detection-and-prevention-repo)
 
@@ -170,7 +175,7 @@ As a final resort, all of the titles link to amazon for purchase.
 
 #### See5/C5.0: 
 - finds patterns and categories and uses that to make predictions
-- https://www.rulequest.com/see5-info.html
+  - https://www.rulequest.com/see5-info.html
 
 #### Isolation Forest:
 
@@ -178,9 +183,9 @@ As a final resort, all of the titles link to amazon for purchase.
 - https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc
 - https://www.statisticssolutions.com/what-is-logistic-regression/
 
-#### Factor Analysis
+#### Factor Analysis:
 
-#### Multiple linear regression
+#### Multiple linear regression:
 
 ## Data Sources
 Below is a list of free data sources that can be used to practice some of the techniques described in this repo.
