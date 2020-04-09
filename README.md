@@ -112,6 +112,12 @@ Below is a list of keywords that may be found on anomalous transactions:
 - stimulus
 - duct (air duct cleaning scams are a new trend)
 
+Here are a list of great sources to find out more about current malicious covid-19 activity:
+- Department of Homeland Security Alert: https://www.us-cert.gov/ncas/alerts/aa20-099a
+- Github list of IOCs: https://github.com/parthdmaniar/coronavirus-covid-19-SARS-CoV-2-IoCs/blob/master/All%20IOCs
+- Github list from Sophos Labs: https://github.com/sophoslabs/covid-iocs
+- Reddit: https://www.reddit.com/r/blueteamsec/comments/fiy0i8/master_thread_covid19corona_threat_actor_campaigns/
+
 ## Papers and Articles about Fraud Analysis [^](#fraud-detection-and-prevention-repo)
 ### My Favorite Papers:
 - TitAnt: Online Real-time Transaction Fraud Detection in Ant Financial
@@ -193,3 +199,4 @@ Below is a list of free data sources that can be used to practice some of the te
 - Credit Card Fraud Detection: https://www.kaggle.com/mlg-ulb/creditcardfraud
 - Synthetic Financial Transactions: https://www.kaggle.com/ntnu-testimon/paysim1
 - German Credit Card data set: https://weka.8497.n7.nabble.com/file/n23121/credit_fruad.arff
+- General Open data from many countries, here link to US open data: https://www.opendata500.com/us/list/
