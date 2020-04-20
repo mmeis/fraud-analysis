@@ -133,6 +133,8 @@ Here are a list of great sources to find out more about current malicious covid-
 ## Base Understanding and Learning Tools
 
 ### Free
+- Many resources and online classes here:
+  - https://www.freecodecamp.org/news/free-courses-top-cs-universities/
 - Learning financial data science: 
   - https://github.com/financial-data-science/CFDS-4
 - Some ML models: 
