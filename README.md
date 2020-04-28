@@ -139,6 +139,9 @@ Here are a list of great sources to find out more about current malicious covid-
   - https://github.com/financial-data-science/CFDS-4
 - Some ML models: 
   - https://github.com/georgymh/ml-fraud-detection
+- Machine Learning Explained from Andrew Ng at Standford:
+  - https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU
+  - extra info here: http://cs229.stanford.edu/syllabus-autumn2018.html?utm_campaign=Data_Elixir&utm_source=Data_Elixir_283
 - High Level Explanation of some machine learning techniques: 
   - https://pkghosh.wordpress.com/2012/01/02/fraudsters-outliers-and-big-data-2/
 - Data Science topics and tools:
@@ -149,6 +152,9 @@ Here are a list of great sources to find out more about current malicious covid-
   - https://youtu.be/PmssNOAeqdk
 - Wikipedia: Data analysis techniques for fraud detection
   - https://en.wikipedia.org/wiki/Data_analysis_techniques_for_fraud_detection
+- Step by Step plan for learning Data Science:
+  - https://towardsdatascience.com/if-i-had-to-start-learning-data-science-again-how-would-i-do-it-78a72b80fd93
+  - does include some paid resource suggestions (like books)
 
 ### Paid Resources
 - O'Reilly Online Learning ($500 a year)
