@@ -137,6 +137,8 @@ Here are a list of great sources to find out more about current malicious covid-
   - https://www.freecodecamp.org/news/free-courses-top-cs-universities/
 - Learning financial data science: 
   - https://github.com/financial-data-science/CFDS-4
+- ML Understanding
+  - https://github.com/amitness/learning
 - Some ML models: 
   - https://github.com/georgymh/ml-fraud-detection
 - Machine Learning Explained from Andrew Ng at Standford:
@@ -155,6 +157,8 @@ Here are a list of great sources to find out more about current malicious covid-
 - Step by Step plan for learning Data Science:
   - https://towardsdatascience.com/if-i-had-to-start-learning-data-science-again-how-would-i-do-it-78a72b80fd93
   - does include some paid resource suggestions (like books)
+- Amazon book on Deep Learning
+  - http://d2l.ai/
 
 ### Paid Resources
 - O'Reilly Online Learning ($500 a year)
